@@ -26,6 +26,8 @@ const Card = ({player,setCoin,coin,selectedPlayers,setSelectedPlayers}) => {
                     <img
                     src={player.playerImg}
                     alt="Player" 
+                    height={300} 
+                    width={300}
                     />
                 </figure>
                 <div className="card-body">
