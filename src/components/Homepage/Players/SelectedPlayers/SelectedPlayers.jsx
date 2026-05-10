@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { MdDelete } from 'react-icons/md';
+import SelectedCard from '../../../ui/SelectedCard';
 
 const SelectedPlayers = ({selectedPlayers,setSelectedPlayers,coin,setCoin}) => {
     console.log(selectedPlayers);
@@ -15,17 +16,16 @@ const SelectedPlayers = ({selectedPlayers,setSelectedPlayers,coin,setCoin}) => {
         <div>
             <div className='space-y-5'>
             {
+                selectedPlayers.length === 0 ? 
+                <div className='h-100 flex items-center justify-center flex-col gap-4'>
+                    <h2 className='font-semibold text-xl'>No Players selected Yet</h2>
+                    <p>go to available tab to select players</p>
+                </div>
+                :
                 selectedPlayers.map((player,index) => {
-                    return <div key={index} className='flex items-center gap-6 justify-between p-10 rounded-2xl border'> 
-                        <div className='flex items-center gap-6'>
-                            <img src={player.playerImg} alt={player.playerName}  className='w-auto h-18.75 rounded-md'/>
-                            <div>
-                                <h2 className='flex items-center gap-2 font-semibold text-xl'> <FaUser></FaUser> {player.playerName}</h2>
-                                <p>{player.playerType}</p>
-                            </div>
-                        </div>
-                        <button className='btn text-red-500' onClick={() => handleDeletedSelectedPlayer(player)} > <MdDelete></MdDelete> </button>
-                    </div>
+                    return (
+                        <SelectedCard key={index} player={player} handleDeletedSelectedPlayer={handleDeletedSelectedPlayer}></SelectedCard>
+                    )
                 })
             }
             </div>
