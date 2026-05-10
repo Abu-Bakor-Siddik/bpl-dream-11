@@ -1,0 +1,62 @@
+[
+  {
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicket Keeper Batsman",
+    "rating": 9.1,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "None",
+    "price": 1150000,
+    "playerImg": "https://i.ibb.co.com/jZfQHLwp/Jos-Buttler.png"
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 9.7,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Legbreak",
+    "price": 1450000,
+    "playerImg": "https://i.ibb.co.com/4ZkGZf8h/Rashid-Khan.jpg"
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.4,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Offbreak",
+    "price": 1380000,
+    "playerImg": "https://i.ibb.co.com/svZ76sHm/Rohit-Sharma.jpg"
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 9.0,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "price": 1080000,
+    "playerImg": "https://i.ibb.co.com/20Q96dxq/Trent-Boult.jpg"
+  },
+  {
+    "playerName": "Hardik Pandya",
+    "playerCountry": "India",
+    "playerType": "All-Rounder",
+    "rating": 9.2,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Fast Medium",
+    "price": 1320000,
+    "playerImg": "https://i.ibb.co.com/xt0JSzp8/Hardik-Pandya.jpg"
+  },
+  {
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 8.9,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Legbreak",
+    "price": 1040000,
+    "playerImg": "https://i.ibb.co.com/5XdQGcXd/David-Warner.webp"
+  }
+]
