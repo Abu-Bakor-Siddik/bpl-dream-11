@@ -6,7 +6,7 @@
     "rating": 9.1,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "None",
-    "price": 1150000,
+    "price": 1100,
     "playerImg": "https://i.ibb.co.com/jZfQHLwp/Jos-Buttler.png"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 9.7,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Legbreak",
-    "price": 1450000,
+    "price": 1450,
     "playerImg": "https://i.ibb.co.com/4ZkGZf8h/Rashid-Khan.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 9.4,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Offbreak",
-    "price": 1380000,
+    "price": 1380,
     "playerImg": "https://i.ibb.co.com/svZ76sHm/Rohit-Sharma.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 9.0,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Left-arm Fast Medium",
-    "price": 1080000,
+    "price": 1080,
     "playerImg": "https://i.ibb.co.com/20Q96dxq/Trent-Boult.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 9.2,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Fast Medium",
-    "price": 1320000,
+    "price": 1320,
     "playerImg": "https://i.ibb.co.com/xt0JSzp8/Hardik-Pandya.jpg"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 8.9,
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "Legbreak",
-    "price": 1040000,
+    "price": 10400000,
     "playerImg": "https://i.ibb.co.com/5XdQGcXd/David-Warner.webp"
   }
 ]
