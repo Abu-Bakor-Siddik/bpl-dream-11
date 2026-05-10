@@ -1,5 +1,6 @@
 import React, {use, useState } from 'react';
 import AvailablePlayers from './AvailablePlayers/AvailablePlayers';
+import SelectedPlayers from './SelectedPlayers/SelectedPlayers';
 
 const Players = ({playerPromise}) => {
 
@@ -18,7 +19,7 @@ const Players = ({playerPromise}) => {
                 </div>
             </div>
 
-            <AvailablePlayers players={players}></AvailablePlayers>
+            {selectedType === "available" ? <AvailablePlayers players={players}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers> }
         </div>
     );
 };
